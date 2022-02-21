@@ -1,0 +1,19 @@
+strict graph G {
+  1 [ color="orange" label="Ana" ];
+  2 [ label="Berta" ];
+  3 [ color="cyan" label="Adolfo" ];
+  4 [ color="magenta" label="Ivan" ];
+  5 [ color="orange" label="Carmen" ];
+  6 [ color="orange" label="Luis" ];
+  7 [ color="orange" label="Juan" ];
+  8 [ label="Pedro" ];
+  9 [ color="orange" label="Ramiro" ];
+  10 [ color="blue" label="Eloy" ];
+  11 [ color="orange" label="Isabel" ];
+  1 -- 6 [ label="" ];
+  2 -- 8 [ label="" ];
+  9 -- 11 [ label="" ];
+  5 -- 11 [ label="" ];
+  7 -- 1 [ label="" ];
+  11 -- 1 [ label="" ];
+}

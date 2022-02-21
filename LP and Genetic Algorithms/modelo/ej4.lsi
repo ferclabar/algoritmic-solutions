@@ -1,0 +1,23 @@
+head section
+
+Integer getSize()
+Integer getValue(Integer i)
+Integer getNumSubsets()
+Integer getGoalSum()
+
+Integer n=getSize()
+Integer m =getNumSubsets()
+Integer k=getGoalSum()
+
+goal section
+
+min sum(x[i,0], i in 0 .. n)
+
+constraints section
+
+sum(x[i,j], j in 0 .. m) = 1, i in 0 .. n
+sum(getValue(i) x[i,j], i in 0 .. n) = k,j in 0 .. m
+
+bin
+
+x[i,j], i in 0 .. n,j in 0 .. m

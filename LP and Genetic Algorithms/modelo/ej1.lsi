@@ -1,0 +1,26 @@
+head section
+
+Integer getValue(Integer i, Integer j)
+Integer getNumStudents()
+Integer getNumGroups()
+Integer getValue(Integer i, Integer j)
+Integer getMaxStudentPerGroup()
+Integer getZEROValue(Integer i, Integer j)
+
+Integer m = getNumStudents()
+Integer n = getNumGroups()
+Integer k = getMaxStudentPerGroup()
+
+goal section
+
+max sum(getValue(i,j) x[i,j], i in 0 .. m, j in 0 .. n)
+
+constraints section
+
+sum(x[i,j], i in 0 .. m) = k, j in 0 .. n
+sum(x[i,j], j in 0 .. n) = 1, i in 0 .. m
+sum(getZEROValue(i,j) x[i,j], i in 0 .. m, j in 0 .. n) = 0
+
+bin
+
+x[i,j], i in 0 .. m, j in 0 .. n

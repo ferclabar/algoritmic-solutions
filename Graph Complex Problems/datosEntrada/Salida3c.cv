@@ -1,0 +1,32 @@
+strict digraph G {
+  1 [ color="green" label="Asignatura_01" ];
+  2 [ color="green" label="Asignatura_02" ];
+  3 [ color="green" label="Asignatura_03" ];
+  4 [ color="green" label="Asignatura_04" ];
+  5 [ color="green" label="Asignatura_05" ];
+  6 [ color="green" label="Asignatura_06" ];
+  7 [ color="green" label="Asignatura_07" ];
+  8 [ color="green" label="Asignatura_08" ];
+  9 [ color="green" label="Asignatura_09" ];
+  10 [ color="green" label="Asignatura_10" ];
+  11 [ label="Asignatura_11" ];
+  12 [ label="Asignatura_12" ];
+  13 [ label="Asignatura_13" ];
+  14 [ label="Asignatura_14" ];
+  15 [ label="Asignatura_15" ];
+  1 -> 6 [ label="" ];
+  1 -> 7 [ label="" ];
+  5 -> 8 [ label="" ];
+  6 -> 9 [ label="" ];
+  8 -> 10 [ label="" ];
+  9 -> 10 [ label="" ];
+  2 -> 11 [ label="" ];
+  3 -> 11 [ label="" ];
+  4 -> 11 [ label="" ];
+  5 -> 12 [ label="" ];
+  7 -> 12 [ label="" ];
+  8 -> 13 [ label="" ];
+  9 -> 13 [ label="" ];
+  10 -> 14 [ label="" ];
+  10 -> 15 [ label="" ];
+}
